@@ -27,7 +27,7 @@ groq_api_key = os.getenv("GROQ_API_KEY")
 
 
 ## set up Streamlit 
-st.title("Conversational RAG With PDF uplaods and chat history")
+st.title("Personal NOC Assistant")
 st.write("Upload Pdf's and chat with their content")
 
 ## Input the Groq API Key
@@ -38,7 +38,7 @@ llm=ChatGroq(groq_api_key=groq_api_key,model_name="Gemma2-9b-It")
 
 ## chat interface
 
-session_id=st.text_input("Session ID",value="default_session")
+session_id=st.text_input("Session ID",value="Enter Session ID")
 ## statefully manage chat history
 
 if 'store' not in st.session_state:

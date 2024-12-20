@@ -18,17 +18,17 @@ Incident Details:
 - Latency: 95ms
 - Packet Loss: 8%
 - Impact Area: Delhi NCR
-- Cell Tower Geolocation: 28.8394° N, 77.7288° E
+- Cell Tower Geolocation: 28.8394ï¿½ N, 77.7288ï¿½ E
 - Impact Severity: Low
 - User Impact: 1788 users
 - Services Affected: Data
 - Attack Type: Call Interception
 - Network Load / Congestion Level: 41%
-----------------------------------------
+
 Actions Taken / Current Progress: Verified all physical connections, ensuring the telephone cable was securely plugged into both the phone and the wall jack.
 Inspected the wall jack for any visible damage or loose connections.
 Restarted the phone, modem, and router to reset the device settings.
 
 Issues Faced During Implementation: No issues found with the physical connections; everything was properly connected.
 Despite power cycling the modem and phone, the dial tone was still not restored. The modem was working fine for data, but the phone line remained silent.
-========================================
+

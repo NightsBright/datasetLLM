@@ -1,0 +1,42 @@
+Incident ID: 10
+Incident Type: Blank Response After Calling
+Root Cause: 4
+Steps: 
+    1.	Test Audio Hardware:
+        o	Verify functionality of microphones, speakers, or headsets.
+    2.	Inspect Codec Compatibility:
+        o	Ensure devices are using compatible codecs for voice data transmission.
+    3.	Diagnose NAT Traversal Issues:
+        o	Configure NAT settings or use tools like STUN/TURN servers to resolve one-way audio issues.
+    4.	Monitor Network Traffic:
+        o	Check for congestion or dropped packets that may affect call quality.
+    5.	Update Session Protocol Configurations:
+        o	Review SIP or H.323 settings for errors.
+    
+Incident Details:
+- Incident ID: 10
+- Timestamp: 17-12-2024 9.12
+- Incident Type: Blank Response After Calling
+- Call Type: Video
+- Source Number: +91 9151979370
+- Destination Number: +91 9909987879
+- Error Code: 500.0
+- Signal Strength: -87.76710413
+- Device Type: Switch
+- Network Segment: Access Network
+- Codec Used: H.264
+- Jitter: 16ms
+- Latency: 499ms
+- Packet Loss: 0%
+- Impact Area: Chennai
+- Cell Tower Geolocation: 28.7005° N, 77.6798° E
+- Impact Severity: Low
+- User Impact: 4264 users
+- Services Affected: Data
+- Attack Type: nan
+- Network Load / Congestion Level: 72%
+Actions Taken / Current Progress: Verified all physical connections, ensuring the telephone cable was securely plugged into both the phone and the wall jack.
+Inspected the wall jack for any visible damage or loose connections.
+Restarted the phone, modem, and router to reset the device settings.
+Issues Faced During Implementation: No issues found with the physical connections; everything was properly connected.
+Despite power cycling the modem and phone, the dial tone was still not restored. The modem was working fine for data, but the phone line remained silent.
